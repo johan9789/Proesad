@@ -15,13 +15,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="DESARROLLO ESPIRITUAL"
+            android:text="DESARROLLO ESPIRITUALl"
             android:id="@+id/textView4"
             android:layout_weight="0.33"
             android:textColor="#ffffffff"
             android:paddingLeft="80dp"
             android:paddingTop="20dp"
-            android:textSize="40dp" />
+            android:textSize="25dp"
+            android:textIsSelectable="false" />
     </LinearLayout>
 
     <LinearLayout
@@ -36,10 +37,37 @@
             android:layout_height="fill_parent"
             android:layout_weight="2">
 
-            <Spinner
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:id="@+id/spinner3" />
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="pablo maricon "
+                android:id="@+id/textView14"
+                android:textColor="#ffffffff"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2">
+
         </LinearLayout>
 
         <LinearLayout
@@ -61,35 +89,6 @@
             android:layout_height="fill_parent"
             android:layout_weight="2">
 
-            <Spinner
-                android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:id="@+id/spinner4" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"></LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1">
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="2">
-
-            <Spinner
-                android:layout_width="wrap_content"
-                android:layout_height="fill_parent"
-                android:id="@+id/spinner5" />
         </LinearLayout>
 
         <LinearLayout
