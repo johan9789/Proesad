@@ -68,7 +68,7 @@ public class MainActivity extends ActionBarActivity
      // codigo del mennu princpal no mas
     private void actionbar(){
         ActionBar actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#0000FF"));
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#2979FF"));
         actionBar.setBackgroundDrawable(colorDrawable);
         }
 

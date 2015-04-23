@@ -86,9 +86,9 @@
                         android:id="@+id/btnAcademico"
                         android:background="#ffb0c4ff"
                         android:gravity="bottom|center"
-                        android:textSize="30dp"
                         android:onClick="onClicAcademico"
-                        android:drawableTop="@drawable/hombre" />
+                        android:drawableTop="@drawable/hombre"
+                        android:textSize="15dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -104,7 +104,7 @@
                         android:id="@+id/btnProyeccionSo"
                         android:background="#ffbfffa2"
                         android:gravity="bottom|center"
-                        android:textSize="20dp"
+                        android:textSize="15dp"
                         android:drawableTop="@drawable/usuarioss"
                         android:onClick="onClicProySocExt" />
                 </LinearLayout>
@@ -129,7 +129,7 @@
                         android:id="@+id/btnInvestigacion"
                         android:background="#ffffff81"
                         android:gravity="bottom|center"
-                        android:textSize="30dp"
+                        android:textSize="20dp"
                         android:drawableTop="@drawable/buscar"
                         android:onClick="onClickInvestigacion" />
                 </LinearLayout>
@@ -147,7 +147,7 @@
                         android:id="@+id/btnDesarrollo"
                         android:background="#ffff8b72"
                         android:gravity="bottom|center"
-                        android:textSize="25dp"
+                        android:textSize="15dp"
                         android:drawableTop="@drawable/libro"
                         android:onClick="onClickDesarrolloESP" />
                 </LinearLayout>
@@ -166,7 +166,7 @@
                     android:id="@+id/btnProesad_B"
                     android:background="#acc6c6c6"
                     android:gravity="center|right"
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:drawableLeft="@drawable/carpeta"
                     android:onClick="onClickProesadB" />
             </LinearLayout>

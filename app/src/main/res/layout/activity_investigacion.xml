@@ -16,7 +16,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="INVESTIGACIÓN"
             android:id="@+id/textView6"
-            android:textSize="50dp"
+            android:textSize="30dp"
             android:textColor="#ffffffff"
             android:paddingTop="30dp"
             android:paddingLeft="90dp" />
