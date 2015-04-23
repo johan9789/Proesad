@@ -15,14 +15,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="DESARROLLO ESPIRITUALl"
+            android:text="DESARROLLO ESPIRITUAL"
             android:id="@+id/textView4"
             android:layout_weight="0.33"
             android:textColor="#ffffffff"
             android:paddingLeft="80dp"
             android:paddingTop="20dp"
-            android:textSize="25dp"
-            android:textIsSelectable="false" />
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#ff36b02e" />
     </LinearLayout>
 
     <LinearLayout
@@ -45,14 +46,6 @@
             android:layout_height="fill_parent"
             android:layout_weight="1">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="pablo maricon "
-                android:id="@+id/textView14"
-                android:textColor="#ffffffff"
-                android:textSize="30dp" />
         </LinearLayout>
     </LinearLayout>
 

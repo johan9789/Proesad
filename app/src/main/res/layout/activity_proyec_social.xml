@@ -2,37 +2,153 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fonv">
+    android:background="@drawable/azul">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1">
+        android:layout_height="wrap_content"
+        android:background="#ff36b02e"
+        android:paddingTop="15dp"
+        android:paddingLeft="20dp">
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="121dp"
+            android:layout_height="fill_parent"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="PROYECCIÓN SOCIAL Y EXTENCIÓN CULTURAL"
-            android:id="@+id/textView10"
-            android:textSize="35dp"
+            android:text="PROYECCIÓN SOCIAL Y EXTENSIÓN CULTURAL"
+            android:id="@+id/textView14"
             android:textColor="#ffffffff"
-            android:paddingTop="30dp"
-            android:paddingLeft="80dp" />
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="20dp" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1"></LinearLayout>
+        android:layout_height="fill_parent">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <ViewSwitcher
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/viewSwitcher"
+                            android:background="@drawable/imagenee">
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:weightSum="1"
+                                android:gravity="bottom">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="BASES PROFES"
+                                    android:id="@+id/textView11"
+                                    android:textColor="#ffffffff"
+                                    android:background="#99a0eb4e"
+                                    android:textStyle="bold"
+                                    android:gravity="bottom|center"
+                                    android:padding="20dp" />
+                            </LinearLayout>
+
+                        </ViewSwitcher>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <ViewSwitcher
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/viewSwitcher2"
+                            android:background="@drawable/imgee">
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:weightSum="1"
+                                android:gravity="bottom">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="BASES PROFES"
+                                    android:id="@+id/textView12"
+                                    android:textColor="#ffffffff"
+                                    android:background="#99c7ebc3"
+                                    android:textStyle="bold"
+                                    android:gravity="bottom|center"
+                                    android:padding="20dp" />
+                            </LinearLayout>
+
+                        </ViewSwitcher>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="vertical"
@@ -43,156 +159,56 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
 
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent">
 
-                    <ViewSwitcher
+                    <LinearLayout
+                        android:orientation="vertical"
                         android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:id="@+id/viewSwitcher"
-                        android:background="@drawable/imagenee">
+                        android:layout_height="fill_parent">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
+                        <ViewSwitcher
                             android:layout_width="fill_parent"
                             android:layout_height="fill_parent"
-                            android:weightSum="1"
-                            android:gravity="bottom">
+                            android:id="@+id/viewSwitcher3"
+                            android:background="@drawable/imagenee">
 
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="BASES PROFES"
-                                android:id="@+id/textView11"
-                                android:textColor="#ffffffff"
-                                android:background="#99a0eb4e"
-                                android:textStyle="bold"
-                                android:gravity="bottom|center"
-                                android:padding="20dp" />
-                        </LinearLayout>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:weightSum="1"
+                                android:gravity="bottom"
+                                android:background="@drawable/imageneee">
 
-                    </ViewSwitcher>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="BASES PROFES"
+                                    android:id="@+id/textView13"
+                                    android:textColor="#ffffffff"
+                                    android:background="#99c7ebc7"
+                                    android:textStyle="bold"
+                                    android:gravity="bottom|center"
+                                    android:padding="20dp" />
+                            </LinearLayout>
 
-                </LinearLayout>
+                        </ViewSwitcher>
 
-            </LinearLayout>
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1">
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent">
-
-                    <ViewSwitcher
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:id="@+id/viewSwitcher2"
-                        android:background="@drawable/imgee">
-
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
-                            android:weightSum="1"
-                            android:gravity="bottom">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="BASES PROFES"
-                                android:id="@+id/textView12"
-                                android:textColor="#ffffffff"
-                                android:background="#99c7ebc3"
-                                android:textStyle="bold"
-                                android:gravity="bottom|center"
-                                android:padding="20dp" />
-                        </LinearLayout>
-
-                    </ViewSwitcher>
+                    </LinearLayout>
 
                 </LinearLayout>
-
             </LinearLayout>
+
+
+
         </LinearLayout>
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1">
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1">
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent">
-
-                    <ViewSwitcher
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:id="@+id/viewSwitcher3"
-                        android:background="@drawable/imagenee">
-
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
-                            android:weightSum="1"
-                            android:gravity="bottom"
-                            android:background="@drawable/imageneee">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="BASES PROFES"
-                                android:id="@+id/textView13"
-                                android:textColor="#ffffffff"
-                                android:background="#99c7ebc7"
-                                android:textStyle="bold"
-                                android:gravity="bottom|center"
-                                android:padding="20dp" />
-                        </LinearLayout>
-
-                    </ViewSwitcher>
-
-                </LinearLayout>
-
-            </LinearLayout>
-        </LinearLayout>
-
-
 
     </LinearLayout>
 

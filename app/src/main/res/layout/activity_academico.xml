@@ -18,9 +18,10 @@
             android:id="@+id/textView"
             android:textColor="#ffffffff"
             android:textSize="30dp"
-            android:paddingLeft="120dp"
-            android:paddingTop="10dp"
-            android:background="#ff36b02e" />
+            android:paddingLeft="200dp"
+            android:paddingTop="20dp"
+            android:background="#ff36b02e"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -35,7 +36,8 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="PLAN DE ESTUDIO"
             android:id="@+id/textView2"
-            android:textColor="#ffffffff" />
+            android:textColor="#ffffffff"
+            android:paddingTop="30dp" />
     </LinearLayout>
 
     <LinearLayout
