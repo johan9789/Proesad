@@ -27,43 +27,70 @@
                     android:layout_weight="1">
 
                     <ImageView
-                        android:layout_width="207dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="256dp"
+                        android:layout_height="match_parent"
                         android:id="@+id/imageView"
-                        android:layout_weight="2.60"
                         android:background="@drawable/logot"
                         android:layout_marginLeft="80dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:orientation="vertical"
-                    android:layout_width="fill_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="fill_parent"
-                    android:layout_weight="5">
+                    android:layout_weight="1">
 
-                    <Button
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/button"
-                        android:background="@drawable/facebook" />
+                        android:layout_weight="1">
 
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/button2"
-                        android:background="@drawable/googleplus_black" />
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/button4"
+                            android:background="@drawable/xgmaill" />
+                    </LinearLayout>
 
-                    <Button
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/button3"
-                        android:background="@drawable/googleplus_red" />
+                        android:layout_weight="1">
 
-                    <Button
-                        android:layout_width="wrap_content"
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/button3"
+                            android:background="@drawable/xtwitterr" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/button4"
-                        android:background="@drawable/twitter" />
+                        android:layout_weight="1">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/button2"
+                            android:background="@drawable/xyoutubee" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:id="@+id/button"
+                            android:background="@drawable/xfacebookk" />
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
 
@@ -88,7 +115,8 @@
                         android:gravity="bottom|center"
                         android:onClick="onClicAcademico"
                         android:drawableTop="@drawable/hombre"
-                        android:textSize="15dp" />
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -104,9 +132,10 @@
                         android:id="@+id/btnProyeccionSo"
                         android:background="#ffbfffa2"
                         android:gravity="bottom|center"
-                        android:textSize="15dp"
+                        android:textSize="20dp"
                         android:drawableTop="@drawable/usuarioss"
-                        android:onClick="onClicProySocExt" />
+                        android:onClick="onClicProySocExt"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -131,7 +160,9 @@
                         android:gravity="bottom|center"
                         android:textSize="20dp"
                         android:drawableTop="@drawable/buscar"
-                        android:onClick="onClickInvestigacion" />
+                        android:onClick="onClickInvestigacion"
+                        android:textStyle="bold"
+                        android:paddingTop="5dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -142,14 +173,15 @@
 
                     <Button
                         android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
+                        android:layout_height="match_parent"
                         android:text="desarrollo espiritual"
                         android:id="@+id/btnDesarrollo"
                         android:background="#ffff8b72"
                         android:gravity="bottom|center"
-                        android:textSize="15dp"
+                        android:textSize="20dp"
                         android:drawableTop="@drawable/libro"
-                        android:onClick="onClickDesarrolloESP" />
+                        android:onClick="onClickDesarrolloESP"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -168,7 +200,11 @@
                     android:gravity="center|right"
                     android:textSize="20dp"
                     android:drawableLeft="@drawable/carpeta"
-                    android:onClick="onClickProesadB" />
+                    android:onClick="onClickProesadB"
+                    android:textStyle="bold"
+                    android:paddingLeft="120dp"
+                    android:singleLine="false"
+                    android:soundEffectsEnabled="false" />
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>
