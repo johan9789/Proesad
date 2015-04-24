@@ -19,7 +19,9 @@ import java.util.ArrayList;
 /**
  * Created by darby on 23/04/2015.
  */
-public class NavegationAdapter_MenuLateral extends BaseAdapter {
+public class NavegationAdapter_MenuLateral {// extends BaseAdapter {
+
+     /*
 
     // Creamos la base Adamter
     //
@@ -84,10 +86,10 @@ public class NavegationAdapter_MenuLateral extends BaseAdapter {
             view =(Fila) convertView.getTag();
         }
         return convertView;
+ }
+   */
 
 
 
 
-
-    }
 }

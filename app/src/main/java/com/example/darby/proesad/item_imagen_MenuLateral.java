@@ -5,7 +5,8 @@ package com.example.darby.proesad;
  */
 public class item_imagen_MenuLateral {
 
-   private String titulo;
+   /*
+    private String titulo;
     private  int icono;
 
     public  item_imagen_MenuLateral(String title, int icon){
@@ -24,5 +25,6 @@ public class item_imagen_MenuLateral {
     public void setIcono(int icono){
         this.icono=icono;
     }
+    */
 
 }
