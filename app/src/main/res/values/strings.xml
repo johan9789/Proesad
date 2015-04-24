@@ -1,14 +1,30 @@
 <resources>
     <string name="app_name">PROESAD</string>
-
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
-
+    <string name="title_section1">Sincronizar</string>
+    <string name="title_section2">Comentarios</string>
+    <string name="title_section3">Contactos</string>
+    <string name="title_section4">Login</string>
+    <string name="title_section5">Cerrar Seccion</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">UpeU</string>
+    <string name="action_settings">Opcion1</string>
 
-    <string name="action_example">Example action</string>
+    <!-- lista de titulos de menu lateral -->
 
-    <string name="action_settings">Settings</string>
+      <string-array name="nav_options">
+          <item>perfil</item>
+          <item>faboritos</item>
+          <item>lugares</item>
+          <item>compartir</item>
+      </string-array>
+
+     <!-- lista de imagenes menu lateral-->
+      <array name="navigation_icons">
+          <item>@drawable/abc_ic_ab_back_mtrl_am_alpha</item>
+          <item>@drawable/abc_ab_share_pack_mtrl_alpha</item>
+          <item>@drawable/abc_btn_check_to_on_mtrl_000</item>
+          <item>@drawable/abc_btn_check_to_on_mtrl_015</item>
+      </array>
+
 </resources>

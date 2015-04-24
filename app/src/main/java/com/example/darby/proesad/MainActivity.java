@@ -2,6 +2,7 @@ package com.example.darby.proesad;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.ActionBarActivity;
@@ -20,7 +21,10 @@ import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 
 public class MainActivity extends ActionBarActivity
@@ -28,6 +32,17 @@ public class MainActivity extends ActionBarActivity
 
     private NavigationDrawerFragment mNavigationDrawerFragment;
     private CharSequence mTitle;
+
+    // menu lateral
+      private  DrawerLayout NavDrawerLayout;
+      private ListView NavList;
+
+     private String[] titulos;
+    private ArrayList<item_imagen_MenuLateral> NavItms;
+    private TypedArray NavIcons;
+    NavegationAdapter_MenuLateral NavAdapter;
+    // fin
+
 
   // declaraciones de botones
 
@@ -37,6 +52,31 @@ public class MainActivity extends ActionBarActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+    // menu lateral
+        NavDrawerLayout =(DrawerLayout) findViewById(R.id.drawer_layout);
+        NavList = (ListView) findViewById(R.id.list_item);  // es lista mmmmmmmmmmmmmmmmmmm
+
+        View header = getLayoutInflater().inflate(R.layout.head_menu_lateral, null);
+        NavList.addHeaderView(header);
+
+        // imagenes
+        NavIcons = getResources().obtainTypedArray(R.array.navigation_icons);
+        titulos = getResources().getStringArray(R.array.nav_options);
+        // lista de titulos
+   //     NavIcons = new ArrayList<item_imagen_MenuLateral>();
+        // agregamos objetos
+                   // perfil
+        NavItms.add(new item_imagen_MenuLateral(titulos[0], NavIcons.getResourceId(0, -1)));
+                  // lugare
+        NavItms.add(new item_imagen_MenuLateral(titulos[1], NavIcons.getResourceId(1, -1)));
+        NavItms.add(new item_imagen_MenuLateral(titulos[2], NavIcons.getResourceId(2, -1)));
+        NavItms.add(new item_imagen_MenuLateral(titulos[3], NavIcons.getResourceId(3, -1)));
+        // declaramos ,,,,, seteamos nnuestro adpter
+    //    NavAdapter= new NavegationAdapter_MenuLateral(this.NavItms);
+        NavList.setAdapter(NavAdapter);
+    // fin
+
 
     // comparacion de botones
         btnIngresar =(Button) findViewById(R.id.btnAcademico);
