@@ -50,7 +50,7 @@ public class ProyeccionSocial extends ActionBarActivity implements ActionBar.Tab
         tab = actionBar.newTab().setText("beneficiario").setTabListener(this);
         actionBar.addTab(tab);
 
-        // colores instanciando a values color.xml  ==========   pascual ===========
+        // colores instanciando a values color.xml  =========   pascual
         ColorDrawable colorDrawable = new ColorDrawable(R.color.verde);
         actionBar.setBackgroundDrawable(colorDrawable);
         ColorDrawable colorDrawable1 = new ColorDrawable(R.color.verde);
