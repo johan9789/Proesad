@@ -18,80 +18,88 @@
                 android:orientation="horizontal"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="#e6e6e6"
+                android:layout_margin="10dp" >
 
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1">
-
-                    <ImageView
-                        android:layout_width="256dp"
-                        android:layout_height="match_parent"
-                        android:id="@+id/imageView"
-                        android:background="@drawable/logot"
-                        android:layout_marginLeft="80dp" />
-                </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView"
+                    android:background="@drawable/logot"
+                    android:layout_marginLeft="80dp" />
 
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1">
+                    android:layout_height="fill_parent">
 
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="fill_parent"
+                    <Button
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        android:id="@+id/button"
+                        android:background="@drawable/xfacebookk" />
 
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="fill_parent"
-                            android:id="@+id/button4"
-                            android:background="@drawable/xgmaill" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="fill_parent"
+                    <Button
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        android:id="@+id/button3"
+                        android:background="@drawable/xtwitterr" />
 
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="fill_parent"
-                            android:id="@+id/button3"
-                            android:background="@drawable/xtwitterr" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="fill_parent"
+                    <Button
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        android:id="@+id/button4"
+                        android:background="@drawable/xgmaill" />
 
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="fill_parent"
-                            android:id="@+id/button2"
-                            android:background="@drawable/xyoutubee" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="fill_parent"
+                    <Button
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
-
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="fill_parent"
-                            android:id="@+id/button"
-                            android:background="@drawable/xfacebookk" />
-                    </LinearLayout>
+                        android:id="@+id/button2"
+                        android:background="@drawable/xyoutubee" />
                 </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:weightSum="1">
+
+
+                <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:text="ACADÉMICO"
+                    android:id="@+id/btnAcademico"
+                    android:background="#b9d9e8"
+                    android:gravity="bottom|center"
+                    android:onClick="onClicAcademico"
+                    android:drawableTop="@drawable/hombre"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:layout_weight=".5"
+                    />
+
+
+                <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:text="Proyección Social y extencion cultural"
+                    android:id="@+id/btnProyeccionSo"
+                    android:background="#cbf4b0"
+                    android:gravity="bottom|center"
+                    android:textSize="20dp"
+                    android:drawableTop="@drawable/usuarioss"
+                    android:onClick="onClicProySocExt"
+                    android:textStyle="bold"
+                    android:layout_weight="0.5"
+                    android:layout_margin="10dp"
+                    />
+
             </LinearLayout>
 
             <LinearLayout
@@ -100,89 +108,34 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1">
 
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="fill_parent"
+                <Button
+                    android:layout_width="0dip"
                     android:layout_height="fill_parent"
-                    android:layout_weight="1">
+                    android:text="investigación"
+                    android:id="@+id/btnInvestigacion"
+                    android:background="#eaf090"
+                    android:gravity="bottom|center"
+                    android:textSize="20dp"
+                    android:drawableTop="@drawable/buscar"
+                    android:onClick="onClickInvestigacion"
+                    android:textStyle="bold"
+                    android:padding="15dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"/>
 
-                    <Button
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:text="ACADÉMICO"
-                        android:id="@+id/btnAcademico"
-                        android:background="#ffb0c4ff"
-                        android:gravity="bottom|center"
-                        android:onClick="onClicAcademico"
-                        android:drawableTop="@drawable/hombre"
-                        android:textSize="20dp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1">
-
-                    <Button
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:text="Proyección Social y extencion cultural"
-                        android:id="@+id/btnProyeccionSo"
-                        android:background="#ffbfffa2"
-                        android:gravity="bottom|center"
-                        android:textSize="20dp"
-                        android:drawableTop="@drawable/usuarioss"
-                        android:onClick="onClicProySocExt"
-                        android:textStyle="bold" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_weight="1">
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1">
-
-                    <Button
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:text="investigación"
-                        android:id="@+id/btnInvestigacion"
-                        android:background="#ffffff81"
-                        android:gravity="bottom|center"
-                        android:textSize="20dp"
-                        android:drawableTop="@drawable/buscar"
-                        android:onClick="onClickInvestigacion"
-                        android:textStyle="bold"
-                        android:paddingTop="5dp" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1">
-
-                    <Button
-                        android:layout_width="fill_parent"
-                        android:layout_height="match_parent"
-                        android:text="desarrollo espiritual"
-                        android:id="@+id/btnDesarrollo"
-                        android:background="#ffff8b72"
-                        android:gravity="bottom|center"
-                        android:textSize="20dp"
-                        android:drawableTop="@drawable/libro"
-                        android:onClick="onClickDesarrolloESP"
-                        android:textStyle="bold" />
-                </LinearLayout>
+                <Button
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:text="desarrollo espiritual"
+                    android:id="@+id/btnDesarrollo"
+                    android:background="#ffb7b8"
+                    android:gravity="bottom|center"
+                    android:textSize="20dp"
+                    android:drawableTop="@drawable/libro"
+                    android:onClick="onClickDesarrolloESP"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5" />
             </LinearLayout>
 
             <LinearLayout
@@ -192,19 +145,20 @@
                 android:layout_weight="1">
 
                 <Button
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
                     android:text="proesad b - Learning"
                     android:id="@+id/btnProesad_B"
-                    android:background="#acc6c6c6"
-                    android:gravity="center|right"
+                    android:background="#e6e6e6"
+                    android:gravity="center"
                     android:textSize="20dp"
                     android:drawableLeft="@drawable/carpeta"
                     android:onClick="onClickProesadB"
                     android:textStyle="bold"
                     android:paddingLeft="120dp"
                     android:singleLine="false"
-                    android:soundEffectsEnabled="false" />
+                    android:soundEffectsEnabled="false"
+                    android:layout_margin="10dp" />
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>
