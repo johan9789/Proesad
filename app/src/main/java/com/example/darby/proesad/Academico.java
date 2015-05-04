@@ -1,5 +1,6 @@
 package com.example.darby.proesad;
 
+import android.support.v7.app.ActionBar;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBarActivity;
@@ -19,6 +20,10 @@ public class Academico extends ActionBarActivity {
 
         // layout
         setContentView(R.layout.activity_academico);
+
+        // FLECHA ... luego al manifes para dar privilegios
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);  // esto es la flecha del menu principal pascual
     }
 
 

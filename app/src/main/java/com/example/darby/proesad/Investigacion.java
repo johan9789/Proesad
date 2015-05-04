@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.support.v7.app.ActionBar;
 
 /**
  * Created by darby on 19/04/2015.
@@ -20,6 +21,11 @@ public class Investigacion extends ActionBarActivity {
 
         // layout
         setContentView(R.layout.activity_investigacion);
+
+
+        // FLECHA ATRAS
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);  // esto es la flecha del menu principal pascual
     }
 
 

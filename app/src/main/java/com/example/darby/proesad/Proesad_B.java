@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.support.v7.app.ActionBar;
 
 /**
  * Created by darby on 19/04/2015.
@@ -18,6 +19,11 @@ public class Proesad_B extends ActionBarActivity {
 
         // layout
         setContentView(R.layout.activity_proesad);
+
+
+        // FLECHA ATRAS
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);  // esto es la flecha del menu principal pascual
     }
 
 
