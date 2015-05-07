@@ -35,7 +35,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     /**
      * menu lateral
      *
-     * private  DrawerLayout NavDrawerLayout;
+     * private DrawerLayout NavDrawerLayout;
      * private ListView NavList;
      * private String[] titulos;
      * private ArrayList<item_imagen_MenuLateral> NavItms;

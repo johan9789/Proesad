@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/verdee">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:orientation="vertical"
@@ -12,16 +11,22 @@
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="125dp"
+            android:layout_height="100dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="INVESTIGACIÓN"
             android:id="@+id/textView6"
-            android:textSize="38dp"
+            android:textSize="35dp"
             android:textColor="#ffffffff"
             android:paddingTop="30dp"
-            android:paddingLeft="90dp"
-            android:background="#ff36b02e"
+            android:paddingLeft="60dp"
+            android:background="#190E3F"
             android:textStyle="bold" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listaInv"
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 
 </LinearLayout>

@@ -7,9 +7,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v7.app.ActionBar;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class Investigacion extends ActionBarActivity {
     private View rootview;
+    private ListView listaInv;
+    private ArrayAdapter<String> adapterListaInv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +33,15 @@ public class Investigacion extends ActionBarActivity {
         // FLECHA ATRAS
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);  // esto es la flecha del menu principal
+
+        listaInv = (ListView)findViewById(R.id.listaInv);
+
+    }
+
+    private void mostrarLista(){
+        String[] elementos = {"Reglamento", "Recursos del investigador", "Repositorio"};
+        adapterListaInv = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, elementos);
+        listaInv.setAdapter(adapterListaInv);
     }
 
 }
