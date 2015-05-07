@@ -50,14 +50,25 @@ public class ProyeccionSocial extends ActionBarActivity implements ActionBar.Tab
         tab = actionBar.newTab().setText("beneficiario").setTabListener(this);
         actionBar.addTab(tab);
 
+
+
+
+
         // colores instanciando a values color.xml  ========   pascual
-        ColorDrawable colorDrawable = new ColorDrawable(R.color.verde);
-        actionBar.setBackgroundDrawable(colorDrawable);
+       /* ColorDrawable colorDrawable = new ColorDrawable(R.color.verde);
+        actionBar.setBackgroundDrawable(colorDrawable); */
  //  ColorDrawable colorDrawable1 = new ColorDrawable(R.color.verde);
 
           // FLECHA ... luego al manifes para dar privilegios
                          // ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);  // esto es la flecha del menu principal pascual
+    }
+
+
+    private void actionbar(){
+        ActionBar actionBar = getSupportActionBar();
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#2979FF"));
+        actionBar.setBackgroundDrawable(colorDrawable);
     }
 
               // clase manejador  3 la cantidad de elementos = pascual
