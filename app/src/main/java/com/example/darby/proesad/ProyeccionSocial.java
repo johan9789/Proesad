@@ -54,10 +54,9 @@ public class ProyeccionSocial extends ActionBarActivity implements ActionBar.Tab
 
 
 
-        // colores instanciando ra values color.xml  ========   pascual
-       /* ColorDrawable colorDrawable = new ColorDrawable(R.color.verde);
-        actionBar.setBackgroundDrawable(colorDrawable); */
- //  ColorDrawable colorDrawable1 = new ColorDrawable(R.color.verde);
+        // Color azul =====   pascual
+        ColorDrawable colorDrawable1 = new ColorDrawable(Color.parseColor("#2979FF"));
+        actionBar.setBackgroundDrawable(colorDrawable1);
 
           // FLECHA ... luego al manifes para dar privilegios
                          // ActionBar actionBar = getSupportActionBar();
@@ -65,11 +64,13 @@ public class ProyeccionSocial extends ActionBarActivity implements ActionBar.Tab
     }
 
 
-    private void actionbar(){
+   /* private void actionbar(){
         ActionBar actionBar = getSupportActionBar();
         ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#2979FF"));
         actionBar.setBackgroundDrawable(colorDrawable);
     }
+    */
+
 
               // clase manejador  3 la cantidad de elementos = pascual
     public class PagerAdapter extends FragmentPagerAdapter {
