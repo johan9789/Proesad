@@ -20,7 +20,7 @@ public class Investigacion extends ActionBarActivity {
     }
 
     @Nullable
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         rootview = inflater.inflate(R.layout.activity_investigacion, container, false);
         return rootview;
     }
