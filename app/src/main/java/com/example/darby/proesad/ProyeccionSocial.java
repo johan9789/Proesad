@@ -53,7 +53,7 @@ public class ProyeccionSocial extends ActionBarActivity implements ActionBar.Tab
         // colores instanciando a values color.xml  ========   pascual
         ColorDrawable colorDrawable = new ColorDrawable(R.color.verde);
         actionBar.setBackgroundDrawable(colorDrawable);
-        ColorDrawable colorDrawable1 = new ColorDrawable(R.color.verde);
+ //  ColorDrawable colorDrawable1 = new ColorDrawable(R.color.verde);
 
           // FLECHA ... luego al manifes para dar privilegios
                          // ActionBar actionBar = getSupportActionBar();
