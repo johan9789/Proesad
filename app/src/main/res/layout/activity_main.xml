@@ -142,7 +142,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="85dp"
-                    android:id="@+id/button"
+                    android:id="@+id/btnFacebook"
                     android:nestedScrollingEnabled="false"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="5dp"
@@ -158,7 +158,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="85dp"
-                    android:id="@+id/button2"
+                    android:id="@+id/btnGoogle"
                     android:background="@drawable/xg"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
@@ -174,7 +174,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="85dp"
-                    android:id="@+id/button3"
+                    android:id="@+id/btnTwitter"
                     android:background="@drawable/xtwitter"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="5dp"
@@ -190,7 +190,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="85dp"
-                    android:id="@+id/button4"
+                    android:id="@+id/btnYoutube"
                     android:background="@drawable/xyoutube"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
@@ -206,7 +206,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="85dp"
-                    android:id="@+id/button10"
+                    android:id="@+id/btnSkype"
                     android:background="@drawable/xskype"
                     android:layout_marginBottom="10dp"
                     android:layout_marginRight="5dp"
