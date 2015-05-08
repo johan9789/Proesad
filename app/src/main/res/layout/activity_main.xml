@@ -8,7 +8,7 @@
          space available using match_parent in both dimensions. -->
     <FrameLayout android:id="@+id/container" android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/fondo">
+        android:background="@drawable/xfondo">
 
         <LinearLayout
             android:orientation="vertical"
@@ -157,7 +157,7 @@
                 android:layout_height="85dp"
                 android:id="@+id/button"
                 android:nestedScrollingEnabled="false"
-                android:background="@drawable/fb"
+                android:background="@drawable/xfb"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="5dp"
@@ -167,7 +167,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="85dp"
                 android:id="@+id/button2"
-                android:background="@drawable/g"
+                android:background="@drawable/xg"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="5dp"
@@ -177,7 +177,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="85dp"
                 android:id="@+id/button3"
-                android:background="@drawable/twitter"
+                android:background="@drawable/xtwitter"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginBottom="10dp"
@@ -197,7 +197,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="85dp"
                 android:id="@+id/button10"
-                android:background="@drawable/skype"
+                android:background="@drawable/xskype"
                 android:layout_marginBottom="10dp"
                 android:layout_marginRight="5dp"
                 android:layout_marginLeft="5dp"
