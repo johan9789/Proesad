@@ -7,7 +7,8 @@
     <!-- As the main content view, the view below consumes the entire
          space available using match_parent in both dimensions. -->
     <FrameLayout android:id="@+id/container" android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo">
 
         <LinearLayout
             android:orientation="vertical"
@@ -19,45 +20,14 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
-                android:background="#e6e6e6"
-                android:layout_margin="10dp" >
+                android:gravity="center"
+                android:padding="10dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:id="@+id/imageView"
-                    android:background="@drawable/logot"
-                    android:layout_marginLeft="80dp" />
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="fill_parent">
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/button"
-                        android:background="@drawable/xfacebookk" />
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/button3"
-                        android:background="@drawable/xtwitterr" />
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/button4"
-                        android:background="@drawable/xgmaill" />
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/button2"
-                        android:background="@drawable/xyoutubee" />
-                </LinearLayout>
+                    android:background="@drawable/logot"/>
 
             </LinearLayout>
 
@@ -74,31 +44,37 @@
                     android:layout_height="match_parent"
                     android:text="ACADÉMICO"
                     android:id="@+id/btnAcademico"
-                    android:background="#b9d9e8"
+                    android:background="#80ffffff"
                     android:gravity="bottom|center"
                     android:onClick="onClicAcademico"
                     android:drawableTop="@drawable/hombre"
                     android:textSize="20dp"
                     android:textStyle="bold"
-                    android:layout_margin="10dp"
-                    android:layout_weight=".5"
-                    />
+                    android:layout_weight="0.5"
+                    android:padding="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp" />
 
 
                 <Button
                     android:layout_width="0dip"
                     android:layout_height="match_parent"
-                    android:text="Proyección Social y extencion cultural"
+                    android:text="Proyección Social y extension cultural"
                     android:id="@+id/btnProyeccionSo"
-                    android:background="#cbf4b0"
+                    android:background="#80ffffff"
                     android:gravity="bottom|center"
                     android:textSize="20dp"
                     android:drawableTop="@drawable/usuarioss"
                     android:onClick="onClicProySocExt"
                     android:textStyle="bold"
                     android:layout_weight="0.5"
-                    android:layout_margin="10dp"
-                    />
+                    android:padding="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp" />
 
             </LinearLayout>
 
@@ -113,29 +89,36 @@
                     android:layout_height="fill_parent"
                     android:text="investigación"
                     android:id="@+id/btnInvestigacion"
-                    android:background="#eaf090"
+                    android:background="#80ffffff"
                     android:gravity="bottom|center"
                     android:textSize="20dp"
                     android:drawableTop="@drawable/buscar"
                     android:onClick="onClickInvestigacion"
                     android:textStyle="bold"
                     android:padding="15dp"
-                    android:layout_margin="10dp"
-                    android:layout_weight="0.5"/>
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp" />
 
                 <Button
                     android:layout_width="0dip"
                     android:layout_height="match_parent"
                     android:text="desarrollo espiritual"
                     android:id="@+id/btnDesarrollo"
-                    android:background="#ffb7b8"
+                    android:background="#80ffffff"
                     android:gravity="bottom|center"
                     android:textSize="20dp"
                     android:drawableTop="@drawable/libro"
                     android:onClick="onClickDesarrolloESP"
                     android:textStyle="bold"
-                    android:layout_margin="10dp"
-                    android:layout_weight="0.5" />
+                    android:layout_weight="0.5"
+                    android:padding="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -146,20 +129,80 @@
 
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"
+                    android:layout_height="match_parent"
                     android:text="proesad b - Learning"
                     android:id="@+id/btnProesad_B"
-                    android:background="#e6e6e6"
+                    android:background="#80ffffff"
                     android:gravity="center"
                     android:textSize="20dp"
                     android:drawableLeft="@drawable/carpeta"
                     android:onClick="onClickProesadB"
                     android:textStyle="bold"
-                    android:paddingLeft="120dp"
                     android:singleLine="false"
                     android:soundEffectsEnabled="false"
-                    android:layout_margin="10dp" />
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp" />
             </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:id="@+id/button"
+                android:nestedScrollingEnabled="false"
+                android:background="@drawable/fb"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:id="@+id/button2"
+                android:background="@drawable/g"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:id="@+id/button3"
+                android:background="@drawable/twitter"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:id="@+id/button4"
+                android:background="@drawable/youtube"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:id="@+id/button10"
+                android:background="@drawable/skype"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
         </LinearLayout>
     </FrameLayout>
 
