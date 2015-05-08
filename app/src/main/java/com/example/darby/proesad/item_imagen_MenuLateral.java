@@ -6,7 +6,7 @@ package com.example.darby.proesad;
 public class item_imagen_MenuLateral {
 
    /*
-    private String titulo;
+    private String titulo;m
     private  int icono;
 
     public  item_imagen_MenuLateral(String title, int icon){
