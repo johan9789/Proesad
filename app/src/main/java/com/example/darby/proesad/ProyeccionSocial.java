@@ -1,9 +1,11 @@
 package com.example.darby.proesad;
 
+import android.app.Application;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.annotation.AttrRes;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -15,7 +17,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
+import android.widget.ImageView;
 
 
 /**
@@ -29,7 +31,6 @@ public class ProyeccionSocial extends ActionBarActivity implements ActionBar.Tab
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
 
         setContentView(R.layout.activity_proyec_social);
 
@@ -50,27 +51,13 @@ public class ProyeccionSocial extends ActionBarActivity implements ActionBar.Tab
         tab = actionBar.newTab().setText("beneficiario").setTabListener(this);
         actionBar.addTab(tab);
 
-
-
-
-
-        // Color azul =====   pascual
+                // Color azul =====   pascual
         ColorDrawable colorDrawable1 = new ColorDrawable(Color.parseColor("#2979FF"));
         actionBar.setBackgroundDrawable(colorDrawable1);
 
-          // FLECHA ... luego al manifes para dar privilegios
-                         // ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);  // esto es la flecha del menu principal pascual
+              // FLECHA ... luego al manifes para dar privilegios
+        actionBar.setDisplayHomeAsUpEnabled(true);
     }
-
-
-   /* private void actionbar(){
-        ActionBar actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#2979FF"));
-        actionBar.setBackgroundDrawable(colorDrawable);
-    }
-    */
-
 
               // clase manejador  3 la cantidad de elementos = pascual
     public class PagerAdapter extends FragmentPagerAdapter {
@@ -100,10 +87,12 @@ public class ProyeccionSocial extends ActionBarActivity implements ActionBar.Tab
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
              rootview = inflater.inflate(R.layout.activity_proyec_social, container, false);
              return rootview;
+
+
         }
 
 
-                             //  se genera solo estos metodos  =======   pascual
+                    //  se genera solo estos metodos  =======   pascual
 
     @Override
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
