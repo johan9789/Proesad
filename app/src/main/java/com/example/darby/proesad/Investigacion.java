@@ -26,7 +26,6 @@ import java.util.Map;
 public class Investigacion extends ActionBarActivity {
     private View rootview;
     private ListView listaInv;
-    private ArrayAdapter<String> adapterListaInv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,10 +51,9 @@ public class Investigacion extends ActionBarActivity {
     }
 
     private void mostrarLista(){
-        String[] elementos = {"Reglamento", "Recursos del investigador", "Repositorio"};
-        adapterListaInv = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, elementos);
+        String[] lista = {"Reglamento", "Recursos del investigador", "Repositorio"};
+        ArrayAdapter<String> adapterListaInv = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, lista);
         listaInv.setAdapter(adapterListaInv);
-
         listaInv.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
