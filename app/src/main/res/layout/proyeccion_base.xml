@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#33b5e5">
+    android:layout_height="match_parent">
 
 
     <LinearLayout
@@ -16,18 +15,6 @@
             android:layout_height="fill_parent"
             android:layout_weight="7">
 
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Bases profes"
-                android:id="@+id/textView10"
-                android:textStyle="bold"
-                android:textSize="40dp"
-                android:textColor="#ffffffff"
-                android:background="#ff7c7dff"
-                android:paddingTop="20dp"
-                android:paddingLeft="70dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -38,13 +25,13 @@
             android:weightSum="1">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="332dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:id="@+id/textView12"
-                android:layout_marginLeft="70dp"
-                android:background="@drawable/nono"
-                android:layout_marginTop="50dp" />
+                android:text="Información sobre Base de profesores "
+                android:id="@+id/textView11"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.49" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

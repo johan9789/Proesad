@@ -1,5 +1,7 @@
 package com.example.darby.proesad;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBarActivity;
@@ -21,6 +23,11 @@ public class Investigacion extends ActionBarActivity {
         setContentView(R.layout.activity_investigacion);
 
         start();
+
+     // color == pascual
+        ActionBar actionBar = getSupportActionBar();
+        ColorDrawable colorDrawable1 = new ColorDrawable(Color.parseColor("#2979FF"));
+        actionBar.setBackgroundDrawable(colorDrawable1);
     }
 
     @Nullable

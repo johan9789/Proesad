@@ -61,6 +61,7 @@
         <activity
             android:name=".ProyeccionSocial"
             android:label="@string/app_name"
+            android:background="#33b5e5"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

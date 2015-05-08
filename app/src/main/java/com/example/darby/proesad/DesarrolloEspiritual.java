@@ -1,5 +1,7 @@
 package com.example.darby.proesad;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.ActionBarActivity;
@@ -24,6 +26,8 @@ public class DesarrolloEspiritual extends ActionBarActivity {
         // FLECHA ... luego al manifes para dar privilegios
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);  // esto es la flecha del menu principal pascual
+        ColorDrawable colorDrawable1 = new ColorDrawable(Color.parseColor("#2979FF"));
+        actionBar.setBackgroundDrawable(colorDrawable1);
     }
 
 
