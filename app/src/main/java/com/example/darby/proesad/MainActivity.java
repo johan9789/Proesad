@@ -170,7 +170,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();
-        if(id == R.id.action_settings) {
+        if(id == R.id.action_settings){
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -179,6 +179,8 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     public static class PlaceholderFragment extends Fragment {
         private static final String ARG_SECTION_NUMBER = "section_number";
 
+        public PlaceholderFragment(){}
+
         public static PlaceholderFragment newInstance(int sectionNumber){
             PlaceholderFragment fragment = new PlaceholderFragment();
             Bundle args = new Bundle();
@@ -186,8 +188,6 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
             fragment.setArguments(args);
             return fragment;
         }
-
-        public PlaceholderFragment(){}
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
