@@ -21,6 +21,9 @@
           <item>lugares</item>
           <item>compartir</item>
       </string-array>
+    <string name="title_activity_reglamento">Reglamento</string>
+
+    <string name="hello_world">Hello world!</string>
 
 
 </resources>
