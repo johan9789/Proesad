@@ -32,6 +32,14 @@
                 android:id="@+id/textView12"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.48" />
+
+            <Button
+                android:layout_width="353dp"
+                android:layout_height="208dp"
+                android:text="PASCUAL"
+                android:id="@+id/btnPascual"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/image" />
         </LinearLayout>
     </LinearLayout>
 

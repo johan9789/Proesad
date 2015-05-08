@@ -22,12 +22,5 @@
           <item>compartir</item>
       </string-array>
 
-     <!-- lista de imagenes menu lateral
-        <array name="navigation_icons">
-          <item>@drawable/abc_ic_ab_back_mtrl_am_alpha</item>
-          <item>@drawable/abc_ab_share_pack_mtrl_alpha</item>
-          <item>@drawable/abc_btn_check_to_on_mtrl_000</item>
-          <item>@drawable/abc_btn_check_to_on_mtrl_015</item>
-        </array>
-      -->
+
 </resources>
