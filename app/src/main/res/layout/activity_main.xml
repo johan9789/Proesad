@@ -42,32 +42,29 @@
                 <Button
                     android:layout_width="0dip"
                     android:layout_height="match_parent"
-                    android:text="ACADÉMICO"
                     android:id="@+id/btnAcademico"
                     android:onClick="onClicAcademico"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     android:layout_weight="0.5"
                     android:layout_marginLeft="10dp"
-                    android:background="#80ffffff"
+                    android:background="@drawable/zacademico"
                     android:elegantTextHeight="true"
-                    android:drawableTop="@drawable/hombre" />
+                    android:padding="5dp" />
 
 
                 <Button
                     android:layout_width="0dip"
                     android:layout_height="match_parent"
-                    android:text="Proyección Social y extension cultural"
                     android:id="@+id/btnProyeccionSo"
-                    android:background="#80ffffff"
                     android:gravity="bottom|center"
                     android:textSize="20dp"
-                    android:drawableTop="@drawable/usuarioss"
                     android:onClick="onClicProySocExt"
                     android:textStyle="bold"
                     android:layout_weight="0.5"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp" />
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/zproyeccion" />
 
             </LinearLayout>
 
@@ -80,9 +77,7 @@
                 <Button
                     android:layout_width="0dip"
                     android:layout_height="fill_parent"
-                    android:text="investigación"
                     android:id="@+id/btnInvestigacion"
-                    android:background="#80ffffff"
                     android:gravity="bottom|center"
                     android:textSize="20dp"
                     android:drawableTop="@drawable/buscar"
@@ -90,14 +85,13 @@
                     android:textStyle="bold"
                     android:layout_weight="0.5"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp" />
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/zinvestigacion" />
 
                 <Button
                     android:layout_width="0dip"
                     android:layout_height="match_parent"
-                    android:text="desarrollo espiritual"
                     android:id="@+id/btnDesarrollo"
-                    android:background="#80ffffff"
                     android:gravity="bottom|center"
                     android:textSize="20dp"
                     android:drawableTop="@drawable/libro"
@@ -106,7 +100,8 @@
                     android:layout_weight="0.5"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp" />
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/zespiritua" />
             </LinearLayout>
 
             <LinearLayout
@@ -118,11 +113,8 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="proesad b - Learning"
                     android:id="@+id/btnProesad_B"
-                    android:background="#80ffffff"
                     android:gravity="center"
-                    android:drawableLeft="@drawable/carpeta"
                     android:onClick="onClickProesadB"
                     android:singleLine="false"
                     android:soundEffectsEnabled="false"
@@ -130,7 +122,8 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginBottom="5dp"
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:background="@drawable/zblearning" />
             </LinearLayout>
 
         <LinearLayout
