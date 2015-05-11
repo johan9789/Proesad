@@ -1,13 +1,12 @@
 <resources>
     <string name="app_name">PROESAD</string>
 
-    <string name="title_section1">Sincronizar</string>
+    <string name="title_section1">Proesad</string>
     <string name="title_section2">Comentarios</string>
     <string name="title_section3">Contactos</string>
 
     <string name="title_section4">Login</string>
-    <string name="title_section5">______________</string>
-    <string name="title_section6">Cerrar Sección</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">UpeU</string>

@@ -11,7 +11,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.example.darby.proesad.R;
 
 public class Reglamento extends ActionBarActivity {
@@ -45,14 +44,13 @@ public class Reglamento extends ActionBarActivity {
 
     @Nullable
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        View rootview = inflater.inflate(R.layout.activity_investigacion, container, false);
-        return rootview;
+        return inflater.inflate(R.layout.activity_investigacion, container, false);
     }
 
     private void start(){
         ActionBar actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable1 = new ColorDrawable(Color.parseColor("#2979FF"));
-        actionBar.setBackgroundDrawable(colorDrawable1);
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#2979FF"));
+        actionBar.setBackgroundDrawable(colorDrawable);
     }
 
 }

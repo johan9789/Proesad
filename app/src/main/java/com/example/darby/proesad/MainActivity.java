@@ -2,60 +2,101 @@ package com.example.darby.proesad;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.preference.PreferenceActivity;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
+import android.net.Uri;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.content.Context;
-import android.os.Build;
-import android.os.Bundle;
-import android.view.Gravity;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
-import android.widget.TextView;
-
-import org.apache.http.Header;
-
-import java.util.ArrayList;
+import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
     private NavigationDrawerFragment mNavigationDrawerFragment;
     private CharSequence mTitle;
-
-
-    // declaraciones de botones
     private Button btnIngresar;
+    private Button btnFacebook;
+    private Button btnGoogle;
+    private Button btnTwitter;
+    private Button btnYoutube;
+    private Button btnSkype;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // comparacion de botones
-        btnIngresar = (Button) findViewById(R.id.btnAcademico);
-        btnIngresar = (Button) findViewById(R.id.btnDesarrollo);
-        btnIngresar = (Button) findViewById(R.id.btnInvestigacion);
-        btnIngresar = (Button) findViewById(R.id.btnProesad_B);
-        btnIngresar = (Button) findViewById(R.id.btnProyeccionSo);
-
+        start();
         actionbar();
-        //fin
 
-        mNavigationDrawerFragment = (NavigationDrawerFragment)getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
 
+        mNavigationDrawerFragment = (NavigationDrawerFragment)getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
         mNavigationDrawerFragment.setUp(R.id.navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout));
+    }
+
+    private void start(){
+        btnIngresar = (Button)findViewById(R.id.btnAcademico);
+        btnIngresar = (Button)findViewById(R.id.btnDesarrollo);
+        btnIngresar = (Button)findViewById(R.id.btnInvestigacion);
+        btnIngresar = (Button)findViewById(R.id.btnProesad_B);
+        btnIngresar = (Button)findViewById(R.id.btnProyeccionSo);
+
+        btnFacebook = (Button)findViewById(R.id.btnFacebook);
+        btnGoogle = (Button)findViewById(R.id.btnGoogle);
+        btnTwitter = (Button)findViewById(R.id.btnTwitter);
+        btnYoutube = (Button)findViewById(R.id.btnYoutube);
+        btnSkype = (Button)findViewById(R.id.btnSkype);
+        goLinks();
+    }
+
+    private void goLinks(){
+        btnFacebook.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.facebook.com/proesad.upeu.edu"));
+                startActivity(intent);
+            }
+        });
+        btnGoogle.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://plus.google.com/u/2/115657786865639813183/posts"));
+                startActivity(intent);
+            }
+        });
+        btnTwitter.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://twitter.com/proesad"));
+                startActivity(intent);
+            }
+        });
+        btnYoutube.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://www.youtube.com/channel/UClYPX9Hc3kwmZM3sAm5n0PQ"));
+                startActivity(intent);
+            }
+        });
+        btnSkype.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Toast.makeText(getApplicationContext(), "En proceso...", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     /**
@@ -69,7 +110,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 
     // click del boton ......... cierra tus ojos que a si me gustas mas
     public void onClicAcademico(View view){
-        startActivity(new Intent(MainActivity.this,Academico.class));
+        startActivity(new Intent(MainActivity.this, Academico.class));
     }
 
     public void onClicProySocExt(View view){
@@ -129,7 +170,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         int id = item.getItemId();
-        if(id == R.id.action_settings) {
+        if(id == R.id.action_settings){
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -138,6 +179,8 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     public static class PlaceholderFragment extends Fragment {
         private static final String ARG_SECTION_NUMBER = "section_number";
 
+        public PlaceholderFragment(){}
+
         public static PlaceholderFragment newInstance(int sectionNumber){
             PlaceholderFragment fragment = new PlaceholderFragment();
             Bundle args = new Bundle();
@@ -145,8 +188,6 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
             fragment.setArguments(args);
             return fragment;
         }
-
-        public PlaceholderFragment(){}
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
