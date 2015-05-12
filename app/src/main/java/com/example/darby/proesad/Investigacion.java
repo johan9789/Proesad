@@ -16,7 +16,9 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
 
+import com.proesad.investigacion.RecursosInvestigador;
 import com.proesad.investigacion.Reglamento;
+import com.proesad.investigacion.Repositorio;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -57,17 +59,19 @@ public class Investigacion extends ActionBarActivity {
         listaInv.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
-                switch(position){
-                    case 0:
-                        startActivity(new Intent(Investigacion.this, Reglamento.class));
-                        break;
-                    case 1:
-                        break;
-                    case 2:
-                        break;
-                    default:
-                        Toast.makeText(getApplicationContext(), "Error.", Toast.LENGTH_SHORT).show();
-                        break;
+            switch(position){
+                case 0:
+                    startActivity(new Intent(Investigacion.this, Reglamento.class));
+                    break;
+                case 1:
+                    startActivity(new Intent(Investigacion.this, RecursosInvestigador.class));
+                    break;
+                case 2:
+                    startActivity(new Intent(Investigacion.this, Repositorio.class));
+                    break;
+                default:
+                    Toast.makeText(getApplicationContext(), "Error.", Toast.LENGTH_SHORT).show();
+                    break;
                 }
             }
         });
