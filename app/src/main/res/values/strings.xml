@@ -23,6 +23,8 @@
     <string name="title_activity_reglamento">Reglamento</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_recursos_investigador">RecursosInvestigador</string>
+    <string name="title_activity_repositorio">Repositorio</string>
 
 
 </resources>

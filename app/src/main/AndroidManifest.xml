@@ -88,6 +88,14 @@
             android:name="com.proesad.investigacion.Reglamento"
             android:label="@string/title_activity_reglamento" >
         </activity>
+        <activity
+            android:name="com.proesad.investigacion.RecursosInvestigador"
+            android:label="@string/title_activity_recursos_investigador" >
+        </activity>
+        <activity
+            android:name="com.proesad.investigacion.Repositorio"
+            android:label="@string/title_activity_repositorio" >
+        </activity>
     </application>
 
 </manifest>
