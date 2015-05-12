@@ -45,11 +45,12 @@ public class Investigacion extends ActionBarActivity {
     }
 
     private void start(){
-        ActionBar actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable1 = new ColorDrawable(Color.parseColor("#2979FF"));
-        actionBar.setBackgroundDrawable(colorDrawable1);
-
         listaInv = (ListView)findViewById(R.id.listaInv);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        ColorDrawable color = new ColorDrawable(Color.parseColor("#2979FF"));
+        actionBar.setBackgroundDrawable(color);
     }
 
     private void mostrarLista(){

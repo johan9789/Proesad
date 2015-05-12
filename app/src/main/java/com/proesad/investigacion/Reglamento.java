@@ -49,8 +49,8 @@ public class Reglamento extends ActionBarActivity {
 
     private void start(){
         ActionBar actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#2979FF"));
-        actionBar.setBackgroundDrawable(colorDrawable);
+        ColorDrawable color = new ColorDrawable(Color.parseColor("#2979FF"));
+        actionBar.setBackgroundDrawable(color);
     }
 
 }
