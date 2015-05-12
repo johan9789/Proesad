@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconDE"
+        android:src="@drawable/iglesia"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="28dp"
+        android:maxHeight="80dp"
+        android:maxWidth="80dp"
+        android:adjustViewBounds="true"
+        android:layout_alignParentEnd="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Título"
+        android:id="@+id/tvTitulo"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="25dp"
+        android:layout_alignTop="@+id/iconDE"
+        android:layout_toEndOf="@+id/iconDE" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Descripción"
+        android:id="@+id/tvDescripcion"
+        android:textColor="#DDDDDD"
+        android:layout_alignBottom="@+id/iconDE"
+        android:layout_alignStart="@+id/tvTitulo" />
+
+</RelativeLayout>
