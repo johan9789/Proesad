@@ -51,7 +51,7 @@
                     android:elegantTextHeight="true"
                     android:padding="5dp"
                     android:clickable="false"
-                    android:background="@drawable/zacademico" />
+                    android:background="@drawable/nonon" />
 
 
                 <Button
