@@ -86,8 +86,8 @@ public class DesarrolloEspiritual extends ActionBarActivity {
 
     private void populateDesarrolloEspiritualList() {
         myList.add(new O_DesarrolloEspiritual("PMDE", R.drawable.iglesia));
-        myList.add(new O_DesarrolloEspiritual("PCP", R.drawable.globe));
-        myList.add(new O_DesarrolloEspiritual("Guía Espiritual", R.drawable.hojas));
+        myList.add(new O_DesarrolloEspiritual("PCP", R.drawable.globe)); // globe
+        myList.add(new O_DesarrolloEspiritual("Guía Espiritual", R.drawable.hojas)); // hojas
     }
 
     private void registerClickCallback() {
