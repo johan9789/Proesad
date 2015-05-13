@@ -27,7 +27,6 @@ public class RecursosInvestigador extends ActionBarActivity {
         mostrarRecursos();
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -52,8 +51,7 @@ public class RecursosInvestigador extends ActionBarActivity {
         listaRecursos = (ListView)findViewById(R.id.listaRecursos);
 
         ActionBar actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable1 = new ColorDrawable(Color.parseColor("#2979FF"));
-        actionBar.setBackgroundDrawable(colorDrawable1);
+        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#2979FF")));
     }
 
     private void mostrarRecursos(){
