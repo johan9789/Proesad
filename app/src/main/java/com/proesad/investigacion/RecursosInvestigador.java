@@ -1,6 +1,5 @@
 package com.proesad.investigacion;
 
-import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.ActionBar;
@@ -22,7 +21,7 @@ public class RecursosInvestigador extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recursos_investigador);
+        setContentView(R.layout.investigacion_recursos_investigador);
 
         start();
         mostrarRecursos();

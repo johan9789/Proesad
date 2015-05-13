@@ -11,7 +11,7 @@ public class Repositorio extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_repositorio);
+        setContentView(R.layout.investigacion_repositorio);
     }
 
     @Override

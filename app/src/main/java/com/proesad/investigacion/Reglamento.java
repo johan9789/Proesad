@@ -18,7 +18,7 @@ public class Reglamento extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_reglamento);
+        setContentView(R.layout.investigacion_reglamento);
         start();
     }
 
