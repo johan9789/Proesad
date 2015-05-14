@@ -22,9 +22,7 @@ public class RecursosInvestigador extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.investigacion_recursos_investigador);
-
         start();
-        mostrarRecursos();
     }
 
     @Override
@@ -52,28 +50,34 @@ public class RecursosInvestigador extends ActionBarActivity {
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#2979FF")));
+
+        mostrarRecursos();
     }
 
     private void mostrarRecursos(){
         String[] lista = {"Formato APA", "Bases de datos científicas", "Bibliotecas Electrónicas"};
         ArrayAdapter<String> adapterListaInv = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, lista);
         listaRecursos.setAdapter(adapterListaInv);
-        listaRecursos.setOnItemClickListener(new AdapterView.OnItemClickListener(){
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id){
-                switch(position){
-                    case 0:
-                        break;
-                    case 1:
-                        break;
-                    case 2:
-                        break;
-                    default:
-                        Toast.makeText(getApplicationContext(), "Error.", Toast.LENGTH_SHORT).show();
-                        break;
-                }
+        listaRecursos.setOnItemClickListener(new MyListener());
+    }
+
+    class MyListener implements AdapterView.OnItemClickListener {
+
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+            switch(position){
+                case 0:
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    break;
+                default:
+                    Toast.makeText(getApplicationContext(), "Error.", Toast.LENGTH_SHORT).show();
+                    break;
             }
-        });
+        }
+
     }
 
 }

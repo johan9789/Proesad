@@ -12,6 +12,7 @@ public class Repositorio extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.investigacion_repositorio);
+        start();
     }
 
     @Override
@@ -33,5 +34,7 @@ public class Repositorio extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    private void start(){}
 
 }
