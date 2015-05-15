@@ -51,7 +51,7 @@
                     android:elegantTextHeight="true"
                     android:padding="5dp"
                     android:clickable="false"
-                    android:background="@drawable/nonon" />
+                    android:background="@drawable/zacademico" />
 
 
                 <Button
@@ -100,7 +100,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
-                    android:background="@drawable/zespiritua" />
+                    android:background="@drawable/zespiritual" />
             </LinearLayout>
 
             <LinearLayout
@@ -116,7 +116,7 @@
                     android:onClick="onClickProesadB"
                     android:singleLine="false"
                     android:soundEffectsEnabled="false"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginBottom="5dp"
@@ -139,7 +139,7 @@
 
                 <Button
                     android:layout_width="56dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:id="@+id/btnFacebook"
                     android:nestedScrollingEnabled="false"
                     android:layout_marginTop="5dp"
@@ -154,7 +154,7 @@
 
                 <Button
                     android:layout_width="56dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:id="@+id/btnGoogle"
                     android:background="@drawable/xg"
                     android:layout_marginLeft="5dp"
@@ -169,7 +169,7 @@
 
                 <Button
                     android:layout_width="56dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:id="@+id/btnTwitter"
                     android:background="@drawable/xtwitter"
                     android:layout_marginTop="5dp"
@@ -184,7 +184,7 @@
 
                 <Button
                     android:layout_width="56dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:id="@+id/btnYoutube"
                     android:background="@drawable/xyoutube"
                     android:layout_marginLeft="5dp"
@@ -199,7 +199,7 @@
 
                 <Button
                     android:layout_width="56dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="56dp"
                     android:id="@+id/btnSkype"
                     android:background="@drawable/xskype"
                     android:layout_marginBottom="10dp"
