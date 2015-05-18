@@ -1,5 +1,6 @@
 package com.example.darby.proesad;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -97,6 +98,8 @@ public class DesarrolloEspiritual_GuiaEspiritual extends ActionBarActivity {
                 OSub_DesarrolloEspiritual subitemClicked = myListDE_subitems.get(position);
                 String message = "Clicked " + subitemClicked.getTitulo();
                 Toast.makeText(DesarrolloEspiritual_GuiaEspiritual.this, message, Toast.LENGTH_LONG).show();
+
+                startActivity(new Intent(DesarrolloEspiritual_GuiaEspiritual.this, DesarrolloEspiritual_contenido.class));
 
             }
         });
