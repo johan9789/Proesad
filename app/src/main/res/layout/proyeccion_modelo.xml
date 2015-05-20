@@ -7,34 +7,95 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        android:weightSum="1">
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="7">
+        <ScrollView
+            android:layout_width="521dp"
+            android:layout_height="692dp"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_horizontal"
+            android:foregroundGravity="center_horizontal"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:tag="12"
+            android:layoutMode="clipBounds"
+            android:focusableInTouchMode="false"
+            android:alwaysDrawnWithCache="false"
+            android:animateLayoutChanges="false"
+            android:layout_marginTop="20dp">
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:weightSum="1">
 
             <TextView
-                android:layout_width="254dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Información sobre modelo .................................................................................................................."
-                android:id="@+id/textView10"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="0.44" />
-        </LinearLayout>
+                android:id="@+id/editText"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:text="EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+                 darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                android: ......................................................................
+
+             Información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             Proesad proedas proedas proesad Proesad proedas proedas proesad Proesad proedas
+
+             pasual castro .................................................................
+             pascual pascual pascual pascual pascualpascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascualpascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascualpascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascualpascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+
+                darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                android: ......................................................................
+                darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                android: ......................................................................
+                darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                android: ...................................................................."
+                android:textColor="#ffffffff" />
+
+
+        </ScrollView>
+
+
     </LinearLayout>
-
-
-
 </LinearLayout>

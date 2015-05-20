@@ -10,29 +10,90 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="7">
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:weightSum="1">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_horizontal" >
 
             <TextView
-                android:layout_width="332dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Información sobre Base de profesores "
-                android:id="@+id/textView11"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="0.49" />
-        </LinearLayout>
+                android:text="darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                android: ......................................................................
+
+             Información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             información información información información información información información
+             Proesad proedas proedas proesad Proesad proedas proedas proesad Proesad proedas
+
+             pasual castro .................................................................
+             pascual pascual pascual pascual pascualpascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascualpascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascualpascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascualpascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+             pascual pascual pascual pascual pascual pascual pascual pascual pascual pascual
+
+                darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                android: ......................................................................
+                darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                android: ......................................................................
+                darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                darby Pacual castro darby Pacual castro darby Pacual castro darby Pacual castro
+                android: ...................................................................... "
+                android:id="@+id/textView15"
+                style="@style/Base.Animation.AppCompat.DropDownUp"
+                android:editable="false"
+                android:elegantTextHeight="false"
+                android:enabled="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:nestedScrollingEnabled="false"
+                android:phoneNumber="false"
+                android:textColor="#ffffffff"
+                android:textIsSelectable="false"
+                android:typeface="sans"
+                android:alpha="89"
+                android:clickable="false" />
+        </ScrollView>
+
     </LinearLayout>
 </LinearLayout>
