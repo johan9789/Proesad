@@ -38,7 +38,7 @@ public class Investigacion extends ActionBarActivity {
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
-        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#2979FF")));
+        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#3E87B2")));
 
         mostrarLista();
     }

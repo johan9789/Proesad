@@ -27,7 +27,7 @@ public class Academico extends ActionBarActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);  // esto es la flecha del menu principal pascual
         // COLOR DEL MENU PRINCIPAL
-        ColorDrawable colorDrawable1 = new ColorDrawable(Color.parseColor("#2979FF"));
+        ColorDrawable colorDrawable1 = new ColorDrawable(Color.parseColor("#3E87B2"));
         actionBar.setBackgroundDrawable(colorDrawable1);
     }
 

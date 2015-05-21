@@ -52,7 +52,7 @@ public class ProyeccionSocial extends ActionBarActivity implements ActionBar.Tab
         actionBar.addTab(tab);
 
                 // Color azul =====   pascual
-        ColorDrawable colorDrawable1 = new ColorDrawable(Color.parseColor("#2979FF"));
+        ColorDrawable colorDrawable1 = new ColorDrawable(Color.parseColor("#3E87B2"));
         actionBar.setBackgroundDrawable(colorDrawable1);
 
               // FLECHA ... luego al manifes para dar privilegios
