@@ -1,4 +1,4 @@
-package com.example.darby.proesad;
+package com.proesad.desarrolloespiritual;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -10,6 +10,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.darby.proesad.R;
 
 /**
  * Created by User on 13/05/2015.

@@ -1,4 +1,4 @@
-package com.example.darby.proesad;
+package com.proesad.desarrolloespiritual;
 
 /**
  * Created by User on 08/05/2015.

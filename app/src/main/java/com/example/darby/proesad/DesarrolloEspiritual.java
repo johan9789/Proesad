@@ -15,7 +15,11 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.proesad.desarrolloespiritual.DesarrolloEspiritual_GuiaEspiritual;
+import com.proesad.desarrolloespiritual.DesarrolloEspiritual_PCP;
+import com.proesad.desarrolloespiritual.DesarrolloEspiritual_PMDE;
+import com.proesad.desarrolloespiritual.O_DesarrolloEspiritual;
 
 import java.util.ArrayList;
 import java.util.List;

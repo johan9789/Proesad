@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/azulll">
+    android:layout_height="match_parent">
 
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_width="532dp"
+        android:layout_height="642dp">
 
         <ScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="512dp"
+            android:layout_height="642dp"
             android:id="@+id/scrollView"
-            android:layout_gravity="center_horizontal" >
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -88,7 +88,7 @@
                 android:longClickable="false"
                 android:nestedScrollingEnabled="false"
                 android:phoneNumber="false"
-                android:textColor="#ffffffff"
+                android:textColor="#56646F"
                 android:textIsSelectable="false"
                 android:typeface="sans"
                 android:alpha="89"

@@ -104,11 +104,10 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
      */
     private void actionbar(){
         ActionBar actionBar = getSupportActionBar();
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#2979FF"));
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#3E87B2"));
         actionBar.setBackgroundDrawable(colorDrawable);
     }
-
-    // click del boton ......... cierra tus ojos que a si me gustas mas
+    // click del boton .........
     public void onClicAcademico(View view){
         startActivity(new Intent(MainActivity.this, Academico.class));
     }

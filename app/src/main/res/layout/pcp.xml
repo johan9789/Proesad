@@ -21,7 +21,7 @@
             android:paddingTop="20dp"
             android:textSize="30dp"
             android:textIsSelectable="false"
-            android:background="#ff4a63ff" />
+            android:background="#23282F" />
     </LinearLayout>
 
     <LinearLayout

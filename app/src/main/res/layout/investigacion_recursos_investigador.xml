@@ -4,8 +4,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.proesad.investigacion.RecursosInvestigador"
-    android:background="@drawable/azulll">
+    tools:context="com.proesad.investigacion.RecursosInvestigador">
 
     <LinearLayout
         android:orientation="vertical"
@@ -23,7 +22,7 @@
             android:textColor="#ffffffff"
             android:paddingTop="27dp"
             android:paddingLeft="30dp"
-            android:background="#190E3F"
+            android:background="#23282F"
             android:textStyle="bold" />
 
         <ListView

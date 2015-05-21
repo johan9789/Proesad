@@ -1,11 +1,8 @@
 package com.example.darby.proesad;
 
-import android.app.Application;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.annotation.AttrRes;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -17,7 +14,10 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
+
+import com.proesad.proyeccionsocial.Proyeccion_Base;
+import com.proesad.proyeccionsocial.Proyeccion_Beneficiario;
+import com.proesad.proyeccionsocial.Proyeccion_Modelo;
 
 
 /**

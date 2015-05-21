@@ -1,4 +1,4 @@
-package com.example.darby.proesad;
+package com.proesad.desarrolloespiritual;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -16,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.darby.proesad.R;
 
 import java.util.ArrayList;
 import java.util.List;

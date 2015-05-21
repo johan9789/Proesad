@@ -1,4 +1,4 @@
-package com.example.darby.proesad;
+package com.proesad.proyeccionsocial;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import com.example.darby.proesad.R;
 
 /**
  * Created by darby on 29/04/2015.

@@ -35,7 +35,7 @@
         </activity>
 
             <activity
-                android:name=".DesarrolloEspiritual_PMDE"
+                android:name="com.proesad.desarrolloespiritual.DesarrolloEspiritual_PMDE"
                 android:label="@string/app_name"
                 android:parentActivityName=".MainActivity" >
                 <meta-data
@@ -43,7 +43,7 @@
                     android:value=".MainActivity" />
             </activity>
             <activity
-                android:name=".DesarrolloEspiritual_PCP"
+                android:name="com.proesad.desarrolloespiritual.DesarrolloEspiritual_PCP"
                 android:label="@string/app_name"
                 android:parentActivityName=".MainActivity" >
                 <meta-data
@@ -51,7 +51,7 @@
                     android:value=".MainActivity" />
             </activity>
             <activity
-                android:name=".DesarrolloEspiritual_GuiaEspiritual"
+                android:name="com.proesad.desarrolloespiritual.DesarrolloEspiritual_GuiaEspiritual"
                 android:label="@string/app_name"
                 android:parentActivityName=".MainActivity" >
                 <meta-data
@@ -59,7 +59,7 @@
                     android:value=".MainActivity" />
             </activity>
                     <activity
-                        android:name=".DesarrolloEspiritual_contenido"
+                        android:name="com.proesad.desarrolloespiritual.DesarrolloEspiritual_contenido"
                         android:label="@string/app_name"
                         android:parentActivityName=".MainActivity" >
                         <meta-data
