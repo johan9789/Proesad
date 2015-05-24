@@ -109,7 +109,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     }
     // click del boton .........
     public void onClicAcademico(View view){
-        startActivity(new Intent(MainActivity.this, Academico.class));
+        startActivity(new Intent(MainActivity.this,Academico.class));
     }
 
     public void onClicProySocExt(View view){
